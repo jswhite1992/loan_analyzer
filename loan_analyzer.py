@@ -201,7 +201,7 @@ output_path = Path("inexpensive_loans.csv")
 
 # # @TODO: Use the csv library and `csv.writer` to write the header row
 # # and each row of `loan.values()` from the `inexpensive_loans` list.
-csvpath = Path(r"C:\Users\jswhi\FinTech-Workspace\Python_Project\GitHub_Upload\GitHub_Upload\GitHub_Upload\inexpensive_loans.csv")
+csvpath = Path("inexpensive_loans.csv")
 with open(csvpath, "w", newline='') as csvfile:
     csvwriter = csv.writer(csvfile,delimiter=",")
     csvwriter.writerow(header)
